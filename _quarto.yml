@@ -1,0 +1,19 @@
+project:
+    type: website
+    output-dir: "."
+
+website:
+  title: "JSC 370 final project"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href:  README.md
+
+format:
+  html:
+    theme: darkly
+    toc: true
+    toc-float: true
+    css: styles.css
